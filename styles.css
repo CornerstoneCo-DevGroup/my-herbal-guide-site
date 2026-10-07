@@ -202,7 +202,7 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;margin:0}
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:58% center;
+  object-position:right center;
 }
 .hero-photo-shade{
   position:absolute;
