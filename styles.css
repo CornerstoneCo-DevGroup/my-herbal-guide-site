@@ -388,7 +388,7 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;margin:0}
 .center-heading p{margin:0;color:var(--muted);font-size:1.03rem}
 .screen-grid{
   display:grid;
-  grid-template-columns:repeat(6,minmax(150px,1fr));
+  grid-template-columns:repeat(5,minmax(160px,1fr));
   gap:18px;
   align-items:start;
 }
