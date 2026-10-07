@@ -3,32 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>My Herbal Guide | Natural Remedies, Recipes, Growing & Foraging</title>
-
-  <meta
-    name="description"
-    content="My Herbal Guide is a beginner-friendly app for exploring natural remedies, herbal recipes, herbs, growing, foraging, and important safety information."
-  >
-
+  <meta name="description" content="My Herbal Guide is a beginner-friendly app for exploring natural remedies, herbal recipes, herbs, growing, foraging, and important safety information.">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-
-    <a href="#home" class="brand">
-      <span class="brand-leaf">🌿</span>
-
+    <a href="#home" class="brand" aria-label="My Herbal Guide home">
+      <span class="brand-mark" aria-hidden="true">🌿</span>
       <span class="brand-copy">
         <strong>My Herbal Guide</strong>
         <small>DISCOVER • LEARN • USE • LIVE NATURALLY</small>
       </span>
     </a>
 
-    <nav class="main-nav">
+    <nav class="main-nav" aria-label="Primary navigation">
       <a href="#home">Home</a>
       <a href="#features">Features</a>
       <a href="#how-it-works">How It Works</a>
@@ -36,507 +27,322 @@
       <a href="mailto:support@myherbalguide.com">Support</a>
     </nav>
 
-    <a href="#premium" class="top-cta">Coming Soon</a>
-
+    <a class="top-cta" href="#premium">Coming Soon</a>
   </div>
 </header>
 
-
 <main>
 
-  <!-- HERO -->
   <section class="hero" id="home">
-
-    <div class="hero-bg"></div>
-
-    <div class="container hero-inner">
-
+    <div class="container hero-grid">
       <div class="hero-copy">
-
         <p class="eyebrow">MY HERBAL GUIDE</p>
-
-        <h1>
-          Nature’s<br>
-          Knowledge.<br>
-          In Your Pocket.
-        </h1>
-
+        <h1>Nature’s Knowledge.<br>In Your Pocket.</h1>
         <p class="hero-description">
-          Explore natural remedies, learn about herbs, follow practical
-          recipes, and discover how to grow and forage — all in one
-          easy-to-use app.
+          Explore natural remedies, learn about herbs, follow practical recipes,
+          and discover how to grow and forage — all in one easy-to-use app.
         </p>
 
-        <div class="launch-row">
-
-          <div class="store-placeholder">
-            <span class="store-icon"></span>
-            <span>
-              <small>COMING SOON TO THE</small>
-              <strong>App Store</strong>
-            </span>
+        <div class="store-row" aria-label="App stores coming soon">
+          <div class="store-badge">
+            <span class="store-symbol apple"></span>
+            <span><small>COMING SOON TO THE</small><strong>App Store</strong></span>
           </div>
-
-          <div class="store-placeholder">
-            <span class="play-symbol">▶</span>
-            <span>
-              <small>COMING SOON TO</small>
-              <strong>Google Play</strong>
-            </span>
+          <div class="store-badge">
+            <span class="store-symbol play">▶</span>
+            <span><small>COMING SOON TO</small><strong>Google Play</strong></span>
           </div>
-
         </div>
 
-        <div class="hero-features">
-
-          <div class="hero-feature">
-            <span>♥</span>
-            <strong>Natural<br>Remedies</strong>
-          </div>
-
-          <div class="hero-feature">
-            <span>▤</span>
-            <strong>My<br>Apothecary</strong>
-          </div>
-
-          <div class="hero-feature">
-            <span>☕</span>
-            <strong>Step-by-Step<br>Recipes</strong>
-          </div>
-
-          <div class="hero-feature">
-            <span>🌱</span>
-            <strong>Grow &<br>Forage</strong>
-          </div>
-
+        <div class="feature-strip">
+          <div class="feature-pill"><span>♥</span><strong>Natural<br>Remedies</strong></div>
+          <div class="feature-pill feature-highlight"><span>▤</span><strong>My<br>Apothecary</strong></div>
+          <div class="feature-pill"><span>☕</span><strong>Step-by-Step<br>Recipes</strong></div>
+          <div class="feature-pill"><span>🌱</span><strong>Grow &<br>Forage</strong></div>
         </div>
-
       </div>
 
+      <div class="hero-visual">
+        <img class="hero-photo" src="assets/hero-woman.jpg" alt="Woman in a herb garden">
+        <div class="hero-photo-shade"></div>
 
-      <div class="hero-photo-area">
-
-        <img
-          class="hero-photo"
-          src="assets/hero-woman.jpg"
-          alt="Woman gardening among herbs"
-        >
-
-        <div class="phone hero-phone">
-
-          <div class="phone-bar">
-            <span class="phone-leaf">🌿</span>
+        <div class="phone hero-phone" aria-label="Illustrative My Herbal Guide app preview">
+          <div class="phone-notch"></div>
+          <div class="phone-top">
+            <span>🌿</span>
             <strong>My Herbal Guide</strong>
           </div>
-
-          <div class="phone-search">
-            Search herbs, symptoms, recipes...
+          <div class="phone-body">
+            <div class="phone-search">Search herbs, symptoms, recipes...</div>
+            <div class="phone-welcome">What would you like to explore?</div>
+            <div class="phone-menu">
+              <div><span>♥</span><small>Symptoms & Remedies</small></div>
+              <div class="phone-menu-accent"><span>▤</span><small>My Apothecary</small></div>
+              <div><span>🌿</span><small>Herb Library</small></div>
+              <div><span>☕</span><small>Recipes</small></div>
+              <div><span>🌱</span><small>Grow Guide</small></div>
+              <div><span>⌖</span><small>Forage Map</small></div>
+            </div>
           </div>
-
-          <div class="phone-menu">
-
-            <div>
-              <span>♥</span>
-              <small>Symptoms & Remedies</small>
-            </div>
-
-            <div>
-              <span>▤</span>
-              <small>My Apothecary</small>
-            </div>
-
-            <div>
-              <span>🌿</span>
-              <small>Herb Library</small>
-            </div>
-
-            <div>
-              <span>☕</span>
-              <small>Recipes</small>
-            </div>
-
-            <div>
-              <span>🌱</span>
-              <small>Grow Guide</small>
-            </div>
-
-            <div>
-              <span>📍</span>
-              <small>Forage Map</small>
-            </div>
-
-          </div>
-
-          <div class="phone-bottom">
-            <span>Home</span>
-            <span>Learn</span>
-            <span>Recipes</span>
-            <span>Grow</span>
-          </div>
-
+          <div class="phone-nav"><span>⌂</span><span>♡</span><span>＋</span><span>☷</span></div>
         </div>
-
       </div>
-
     </div>
   </section>
 
-
-  <!-- ABOUT -->
   <section class="about-section" id="about">
-
-    <div class="about-photo-wrap">
-
-      <img
-        src="assets/section-woman.jpg"
-        alt="Woman examining herbs in a garden"
-        class="about-photo"
-      >
-
-      <div class="photo-script">
-        Explore.<br>
-        Learn.<br>
-        Live Naturally.
+    <div class="container about-grid">
+      <div class="about-visual">
+        <img src="assets/section-woman.jpg" alt="Woman examining herbs in a garden">
+        <div class="about-badge">
+          <span>🌿</span>
+          <strong>Explore. Learn. Grow.</strong>
+        </div>
       </div>
 
+      <div class="about-copy">
+        <p class="eyebrow">HERBAL KNOWLEDGE MADE EASIER</p>
+        <h2>A simpler way to learn about herbs and natural living.</h2>
+        <p class="about-intro">
+          My Herbal Guide brings remedies, recipes, individual herbs, growing,
+          foraging, and important safety information together in one
+          beginner-friendly experience.
+        </p>
+
+        <ul class="check-list">
+          <li>Explore remedies by symptom or wellness topic</li>
+          <li>Follow practical recipes and preparation methods</li>
+          <li>Learn about herbs and available safety considerations</li>
+          <li>Build and organize your personal My Apothecary collection</li>
+          <li>Explore growing and foraging resources</li>
+          <li>Save favorites and create your personal herbal reference</li>
+        </ul>
+      </div>
     </div>
-
-
-    <div class="about-copy">
-
-      <p class="eyebrow">MORE THAN AN APP</p>
-
-      <h2>Herbal Knowledge Made Easier</h2>
-
-      <p class="about-intro">
-        My Herbal Guide brings natural remedies, recipes, herbs, growing,
-        foraging, and important safety information together in one
-        beginner-friendly experience.
-      </p>
-
-      <ul class="check-list">
-        <li>Explore natural remedies by symptom or wellness topic</li>
-        <li>Follow practical herbal recipes and preparation methods</li>
-        <li>Learn about individual herbs and safety considerations</li>
-        <li>Build and organize your personal apothecary</li>
-        <li>Explore growing and foraging resources</li>
-        <li>Save favorites and build your personal herbal reference</li>
-      </ul>
-
-    </div>
-
   </section>
 
-
-  <!-- APP IN ACTION -->
   <section class="app-section" id="features">
-
     <div class="container">
-
       <div class="center-heading">
-        <h2>See the App in Action</h2>
-
-        <p>
-          Everything you need to explore the world of herbs —
-          right at your fingertips.
-        </p>
+        <p class="eyebrow">SEE THE APP IN ACTION</p>
+        <h2>Herbal guidance, organized around what you need.</h2>
+        <p>Explore the core experiences planned for My Herbal Guide.</p>
       </div>
-
 
       <div class="screen-grid">
-
         <article class="screen-card">
           <h3>Ask My Herbalist</h3>
-
           <div class="screen-phone">
-            <img
-              src="assets/app-identify.png"
-              alt="Ask My Herbalist app screen"
-            >
-            <span class="screen-placeholder">Ask My Herbalist</span>
+            <div class="screen-status"></div>
+            <div class="screen-appbar">🌿 <strong>Ask My Herbalist</strong></div>
+            <div class="screen-inner">
+              <span class="mini-kicker">GUIDED SEARCH</span>
+              <div class="mock-question">What are you looking for help with?</div>
+              <div class="mock-input">Describe a symptom or wellness topic</div>
+              <div class="mock-button">Explore Options</div>
+            </div>
           </div>
         </article>
-
 
         <article class="screen-card">
           <h3>Symptoms & Remedies</h3>
-
           <div class="screen-phone">
-            <img
-              src="assets/app-remedies.png"
-              alt="Symptoms and remedies app screen"
-            >
-            <span class="screen-placeholder">Symptoms & Remedies</span>
+            <div class="screen-status"></div>
+            <div class="screen-appbar">♥ <strong>Remedies</strong></div>
+            <div class="screen-inner">
+              <div class="mock-search">Search symptoms...</div>
+              <div class="mock-list"><b>Digestive Support</b><span>›</span></div>
+              <div class="mock-list"><b>Sleep & Rest</b><span>›</span></div>
+              <div class="mock-list"><b>Seasonal Wellness</b><span>›</span></div>
+              <div class="mock-list"><b>Everyday Aches</b><span>›</span></div>
+            </div>
           </div>
         </article>
-
 
         <article class="screen-card">
           <h3>My Apothecary</h3>
-
-          <div class="screen-phone">
-            <img
-              src="assets/app-apothecary.png"
-              alt="My Apothecary app screen"
-            >
-            <span class="screen-placeholder">My Apothecary</span>
+          <div class="screen-phone featured-screen">
+            <div class="screen-status"></div>
+            <div class="screen-appbar">▤ <strong>My Apothecary</strong></div>
+            <div class="screen-inner">
+              <div class="apothecary-summary">
+                <strong>Your Collection</strong>
+                <span>Saved herbs, remedies & recipes</span>
+              </div>
+              <div class="mock-grid">
+                <div>🌿<small>Herbs</small></div>
+                <div>♥<small>Remedies</small></div>
+                <div>☕<small>Recipes</small></div>
+                <div>★<small>Favorites</small></div>
+              </div>
+            </div>
           </div>
         </article>
-
 
         <article class="screen-card">
           <h3>Recipes</h3>
-
           <div class="screen-phone">
-            <img
-              src="assets/app-recipes.png"
-              alt="Herbal recipes app screen"
-            >
-            <span class="screen-placeholder">Recipes</span>
+            <div class="screen-status"></div>
+            <div class="screen-appbar">☕ <strong>Recipes</strong></div>
+            <div class="screen-inner">
+              <div class="mock-recipe"><span>Tea</span><b>Herbal Infusions</b></div>
+              <div class="mock-recipe"><span>Tincture</span><b>Extracts</b></div>
+              <div class="mock-recipe"><span>Topical</span><b>Salves & Balms</b></div>
+            </div>
           </div>
         </article>
-
 
         <article class="screen-card">
           <h3>Grow Guide</h3>
-
           <div class="screen-phone">
-            <img
-              src="assets/app-grow.png"
-              alt="Grow Guide app screen"
-            >
-            <span class="screen-placeholder">Grow Guide</span>
+            <div class="screen-status"></div>
+            <div class="screen-appbar">🌱 <strong>Grow Guide</strong></div>
+            <div class="screen-inner">
+              <div class="grow-hero">🌿</div>
+              <div class="mock-list"><b>Sun & Soil</b><span>✓</span></div>
+              <div class="mock-list"><b>Planting</b><span>✓</span></div>
+              <div class="mock-list"><b>Harvesting</b><span>✓</span></div>
+            </div>
           </div>
         </article>
-
 
         <article class="screen-card">
-          <h3>Forage Map</h3>
-
+          <h3>Wild Forage</h3>
           <div class="screen-phone">
-            <img
-              src="assets/app-forage.png"
-              alt="Forage Map app screen"
-            >
-            <span class="screen-placeholder">Forage Map</span>
+            <div class="screen-status"></div>
+            <div class="screen-appbar">⌖ <strong>Wild Forage</strong></div>
+            <div class="screen-inner forage-screen">
+              <div class="map-shape"><span>●</span><span>●</span><span>●</span></div>
+              <div class="mock-list"><b>Saved Locations</b><span>3</span></div>
+              <div class="mock-list"><b>Foraging Notes</b><span>›</span></div>
+            </div>
           </div>
         </article>
-
       </div>
 
+      <p class="preview-note">
+        Interface previews are illustrative while the final app screens are being prepared for launch.
+      </p>
     </div>
   </section>
 
-
-  <!-- HOW IT WORKS -->
   <section class="how-section" id="how-it-works">
-
     <div class="container">
-
       <div class="center-heading">
-
         <p class="eyebrow">BEGINNER FRIENDLY</p>
-
-        <h2>You Don’t Need to Be an Herbalist to Get Started</h2>
-
-        <p>
-          My Herbal Guide is designed for people who are curious about
-          herbs and natural remedies but aren't sure where to begin.
-        </p>
-
+        <h2>You don’t need to be an herbalist to get started.</h2>
+        <p>Start with what you want to learn, then follow the information from question to remedy, recipe, ingredient, and safety details.</p>
       </div>
 
-
       <div class="steps">
-
         <article>
           <span class="step-number">1</span>
           <h3>Start With a Question</h3>
-          <p>
-            Search a symptom, wellness topic, herb, recipe, or preparation.
-          </p>
+          <p>Search a symptom, wellness topic, herb, recipe, or preparation.</p>
         </article>
-
         <article>
           <span class="step-number">2</span>
           <h3>Explore the Information</h3>
-          <p>
-            Review relevant herbs, recipes, ingredients, preparation
-            methods, and available safety information.
-          </p>
+          <p>Review related herbs, remedies, recipes, preparation methods, and available safety information.</p>
         </article>
-
         <article>
           <span class="step-number">3</span>
           <h3>Build Your Knowledge</h3>
-          <p>
-            Save favorites, organize your apothecary, grow useful herbs,
-            and explore foraging resources.
-          </p>
+          <p>Save favorites, organize My Apothecary, grow useful herbs, and explore foraging resources.</p>
         </article>
-
       </div>
-
     </div>
   </section>
 
-
-  <!-- SAFETY -->
   <section class="safety-section">
-
-    <div class="container safety-inner">
-
-      <div>
-        <p class="eyebrow">SAFETY MATTERS</p>
-        <h2>Herbal Knowledge With Safety in Mind</h2>
+    <div class="container safety-card">
+      <div class="safety-title">
+        <span class="safety-icon">✚</span>
+        <div>
+          <p class="eyebrow">SAFETY MATTERS</p>
+          <h2>Important safety information stays available.</h2>
+        </div>
       </div>
-
-      <div>
+      <div class="safety-copy">
         <p>
-          Herbs and natural products can cause side effects, allergic
-          reactions, contraindications, and medication interactions.
-          My Herbal Guide includes applicable safety information where
-          available to help users make more informed decisions.
+          Herbs and natural products may cause side effects, allergic reactions,
+          contraindications, or medication interactions. My Herbal Guide presents
+          applicable safety information where available and does not place core
+          safety warnings behind a Premium subscription.
         </p>
-
-        <p>
-          Important safety information remains available to Free users.
-          My Herbal Guide provides educational information and is not a
-          substitute for professional medical care.
+        <p class="fine-print">
+          My Herbal Guide provides educational and informational content and is not a substitute for professional medical care.
         </p>
-
-        <span class="future-link">Health Disclaimer page coming soon</span>
       </div>
-
     </div>
-
   </section>
 
-
-  <!-- PREMIUM -->
   <section class="premium-section" id="premium">
-
-    <div class="premium-overlay"></div>
-
+    <div class="premium-decor premium-leaf-a">🌿</div>
+    <div class="premium-decor premium-leaf-b">🌱</div>
     <div class="container premium-inner">
-
       <div class="premium-copy">
-
         <p class="premium-kicker">MY HERBAL GUIDE PREMIUM</p>
-
         <h2>Access Premium Free for 72 Hours</h2>
-
-        <p>
-          Explore Premium features for 72 hours.
-          No payment required. No automatic charge when your free access ends.
+        <p class="premium-subcopy">
+          Explore Premium features for 72 hours. No payment required.
+          No automatic charge when your free access ends.
         </p>
-
-        <div class="launch-badge">
-          App Launching Soon
+        <div class="premium-badges">
+          <span>Wild Forage+</span>
+          <span>Grow Guide+</span>
+          <span>Unlimited Saves</span>
+          <span>Subscriber Contributions</span>
         </div>
-
+        <div class="launch-badge">App Launching Soon</div>
       </div>
 
-
-      <div class="premium-grid">
-
-        <article>
-          <span>🌿</span>
-          <h3>Premium Features</h3>
-          <p>
-            Advanced tools, unlimited saves, enhanced growing and foraging
-            experiences, and more.
-          </p>
-        </article>
-
-        <article>
-          <span>✦</span>
-          <h3>Subscriber Contributions</h3>
-          <p>
-            Submit herbal recipes and plant photos for editorial review and
-            choose whether to receive public contributor credit.
-          </p>
-        </article>
-
-        <article>
-          <span>★</span>
-          <h3>Early Access</h3>
-          <p>
-            Premium members may receive early access to selected new features
-            and major upgrades.
-          </p>
-        </article>
-
+      <div class="premium-panel">
+        <article><span>🌿</span><div><h3>Advanced Discovery</h3><p>More filters, deeper organization, and enhanced non-safety personalization.</p></div></article>
+        <article><span>✦</span><div><h3>Subscriber Contributions</h3><p>Paid subscribers can submit recipes and herb photos for editorial review.</p></div></article>
+        <article><span>★</span><div><h3>Early Access</h3><p>Selected new features and upgrades can arrive first for Premium members.</p></div></article>
       </div>
-
     </div>
-
   </section>
 
 </main>
 
-
 <footer class="site-footer">
-
   <div class="container footer-inner">
-
     <div class="footer-brand">
-
       <div class="brand">
-        <span class="brand-leaf">🌿</span>
-
+        <span class="brand-mark" aria-hidden="true">🌿</span>
         <span class="brand-copy">
           <strong>My Herbal Guide</strong>
           <small>DISCOVER • LEARN • USE • LIVE NATURALLY</small>
         </span>
       </div>
-
-      <p>
-        Natural Remedies • Recipes • Growing • Foraging
-      </p>
-
+      <p>Natural Remedies • Recipes • Growing • Foraging</p>
     </div>
 
-
     <div class="footer-nav">
-      <a href="#home">Home</a>
+      <strong>Explore</strong>
       <a href="#features">Features</a>
       <a href="#how-it-works">How It Works</a>
       <a href="#about">About</a>
-      <a href="mailto:support@myherbalguide.com">Support</a>
     </div>
 
-
     <div class="footer-legal">
+      <strong>Information</strong>
       <span>Privacy Policy</span>
       <span>Terms of Use</span>
       <span>Health Disclaimer</span>
       <span>Delete Account</span>
     </div>
 
-
     <div class="footer-contact">
-
       <strong>Support</strong>
-
-      <a href="mailto:support@myherbalguide.com">
-        support@myherbalguide.com
-      </a>
-
-      <p>
-        Owned and operated by<br>
-        Cornerstone & Co Development Group LLC
-      </p>
-
+      <a href="mailto:support@myherbalguide.com">support@myherbalguide.com</a>
+      <p>Owned and operated by<br>Cornerstone &amp; Co Development Group LLC</p>
     </div>
-
   </div>
 
-
-  <div class="container copyright">
-    © My Herbal Guide. All rights reserved.
-  </div>
-
+  <div class="container copyright">© My Herbal Guide. All rights reserved.</div>
 </footer>
 
 </body>
